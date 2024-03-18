@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Můj Profil</title>
+  <style>
+    /* CSS pro vzhled stránky */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-image: url('https://wallpapers.com/images/hd/high-resolution-wood-background-sk0k1ko8b0lxyyf4.jpg'); /* Dřevěné pozadí */
+      background-size: cover;
+      background-position: center;
+      color: #333; /* Barva textu */
+    }
+
+    header, footer {
+      background-color: rgba(0, 0, 0, 0.5); /* Průhledné černé pozadí */
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    main {
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.7); /* Průhledné bílé pozadí */
+      border-radius: 10px; /* Zaoblené rohy */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Stín */
+    }
+
+    /* Obrázky */
+    .icon {
+      max-width: 14%; /* Zvětšení obrázků */
+      height: auto;
+      margin: 10px;
+      opacity: 0.85; /* Průhlednost (0.85 = 85%) */
+      float: right; /* Umístění vpravo */
+      border-radius: 10px; /* Zaoblené rohy */
+    }
+
+    /* Text zarovnaný doleva */
+    main p, main ul {
+      text-align: left;
+    }
+
+    /* Pravidlo pro bílé okénko, které se přesně neshoduje s výškou obrázků */
+    .my-skills {
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Felicita Klinecká</h1>
+    <p>Student/ka GMHS</p>
+  </header>
+
+  <main>
+    <section class="about-me">
+      <h2>O mně</h2>
+      <p>Aktuálně studuji 5. rokem na Gymnáziu a hudební škole hl. m. Prahy s hlavním oborem housle, na které hraji už skoro devět let. Celkem čtyři roky jsem chodila do dramatického kroužku, kde jsem získala mnohé skušenosti v tomto oboru. Zpívám odmalička, docházela jsem na soukromé hodiny zpěvu, nyní se druhým rokem učím na ZUŠ Olešská. Umím se sama doprovodit, zpívám ale i v zuškové kapele.</p>
+      <p>Na všechny z těchto oborů mám nacvičený základní repertoár, který jsem po soukromé domluvě (viz. dole) schopna předvést.</p>
+      <img src="https://products.shureweb.eu/shure_product_db/product_images/files/71b/499/a5-/original/4f55b243f4b08edd89ed489129092be3.png" alt="Mikrofon" class="icon">
+      <img src="https://storage.googleapis.com/stateless-blog-g4m-co-uk/2023/04/Hidersine-Vivente-Finetune-Violin-Outfit-Full-Size-300x300.jpg" alt="Housle" class="icon">
+    </section>
+
+    <section class="my-skills">
+      <h3>Mé dovednosti</h3>
+      <ul>
+        <li>hra na housle</li>
+        <li>zpěv</li>
+        <li>amatérské herectví</li>
+        <!-- Můžete přidat další dovednosti -->
+      </ul>
+    </section>
+
+    <section class="my-projects">
+      <h3>Mé koníčky</h3>
+      <div class="hobby">
+        <li>čtení</li>
+        <li>pletení, háčkování, vyrábění náramků</li>
+        </div>
+      <!-- Můžete přidat další koníčky -->
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Kontakt: felicita.klinecka@gmail.com</p>
+  </footer>
+
+</body>
+</html>
